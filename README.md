@@ -7,7 +7,7 @@
 
 Features to add:
   - Style using TailwindCSS
-  - Add in Wordpress RestAPI
+  - Add in Sanity CMS
 
 <h2>- Home Page -</h2>
   <img src="src/images/gatsby-blog-home.png" alt="Home Page" width="100%" height="auto">

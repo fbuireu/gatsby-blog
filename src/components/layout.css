@@ -1,4 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500;700&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
+
 html {
+  scroll-behavior: smooth;
+}
+
+* {
+  overflow-wrap: break-word;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #341611;
+  color: #f8f5f2;
+}
+
+.mono {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 500;
+}
+
+.prose img {
+  margin: 1rem auto;
+  border-radius: 5px;
+  height: auto;
+  max-width: 800px;
+  width: 100%;
+}
+
+.prose a {
+  color: #EC4899;
+}
+
+section img {
+  width: auto;
+  height: 200px;
+}
+
+
+nav {
+  height: 72px;
+}
+
+code {
+  background-color: #4f4543;
+  color: #f8f5f2;
+  padding: 8px;
+  border-radius: 3px;
+  word-wrap: break-word; 
+  line-height: 2.5; 
+} 
+
+pre code{
+  display: block;
+  padding: 1rem;
+  margin: 1.5rem auto;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: scroll;
+  line-height: 1.15;
+  max-width: 70vw;
+  min-width: 100px;
+}
+
+.prose p {
+  margin: 1.5rem auto;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 1rem auto; 
+}
+
+ul {
+  list-style: inside;
+  margin: 1rem;
+}
+
+main button {
+  margin: auto;
+}
+
+#home-img, #about-img {
+  border-radius: 50%;
+}
+
+
+@media screen and (max-width: 768px) {
+  nav {
+    display: flex;
+    position: fixed;
+    z-index: 100;
+    background-color: #341611;
+    width: 100vw;
+    height: 64px;
+    bottom: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+    border-width: 100%;
+  }
+
+  nav a {
+    text-align: center;
+    margin: auto;
+  }
+  
+}
+
+
+
+
+/* html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   font: 112.5%/1.45em georgia, serif, sans-serif;
@@ -598,3 +716,5 @@ pre tt:after {
     font-size: 100%;
   }
 }
+
+*/

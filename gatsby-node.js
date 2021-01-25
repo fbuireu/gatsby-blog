@@ -17,6 +17,8 @@ exports.createPages = ({actions, graphql}) => {
                         title
                         date
                         author
+                        category
+                        description
                     }
                     }
                 }

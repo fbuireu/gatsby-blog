@@ -1,7 +1,9 @@
 ---
 path: "/post-two"
-date: "/2020-11-22"
+date: "2020-11-22"
 title: "My Second Gatsby Post"
+description: "This is my second markdown post with gatsby"
+category: "Gatsby"
 author: "Nikki Peel"
 ---
 

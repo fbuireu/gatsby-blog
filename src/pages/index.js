@@ -35,7 +35,7 @@ return  (
                             <div className="m-4" key={ post.node.id }>
                                 <h3 className="text-white text-2xl font-semibold mb-2">{ post.node.frontmatter.title }</h3>
                                 <p className="text-base mb-4">{post.node.frontmatter.description}</p>
-                                <span className="bg-mauve font-semibold text-sm py-2 px-4 mr-2 rounded">{ post.node.frontmatter.category }</span>
+                                <span id={ post.node.frontmatter.category } className="text-black font-semibold text-sm py-2 px-4 mr-2 rounded">{ post.node.frontmatter.category }</span>
                                 <small className="text-base ml-2">&#128197; {post.node.frontmatter.date }</small>
                             </div>
                         </span>

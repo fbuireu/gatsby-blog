@@ -13,6 +13,7 @@ module.exports = {
         darken: '#eadfd7',
         active: '#fff'
       },
+      black: '#333333',
       pink: '#EC4899',
       purple: '#AE1FF6',
       yellow: '#FFB847',

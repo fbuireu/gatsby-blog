@@ -19,7 +19,7 @@ const BlogPage = ({ data }) => (
                     <article>
                         <Link to={post.node.frontmatter.path}>
                         <span className="block h-64 relative leading-snug" key={ post.node.id }>
-                            <img src={post.node.frontmatter.image} alt="" className="w-full h-full object-cover absolute" id="main-img"/> 
+                            <img src={post.node.frontmatter.image} alt="" className="w-full h-full object-cover object-top absolute" id="main-img"/> 
                             <span className="block relative h-full flex justify-start md:justify-end items-end pr-4 md:pb-4">
                                 <h3 className="bg-gray-800 bg-opacity-75 text-white text-xl font-semibold px-3 py-4 rounded text-left">{post.node.frontmatter.title}</h3>
                             </span>

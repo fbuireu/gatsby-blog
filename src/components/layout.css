@@ -117,6 +117,10 @@ main button {
   background-color:#AE1FF6;
 }
 
+#Wordpress {
+  background-color: #2563EB;
+}
+
 #React {
   background-color: #00E2FC;
 }
@@ -126,11 +130,15 @@ main button {
 }
 
 #CSS {
-  background-color: #EC4899;
+  background-color: #ff46a2;
+}
+
+#Bootstrap {
+  background-color: #FB923C;
 }
 
 #Tailwind {
-  background-color: #FFB847;
+  background-color: #34D399;
 }
 
 @media screen and (max-width: 768px) {

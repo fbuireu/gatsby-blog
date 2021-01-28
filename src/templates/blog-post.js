@@ -26,7 +26,7 @@ export default function Template({ data }) {
                             <p className="text-base font-semibold mt-4 text-center">Published on <strong>{post.frontmatter.date}</strong></p>
                         </div>
                     </div>
-                    <img src={post.frontmatter.image} alt={post.frontmatter.title} className="w-full object-cover object-left-top rounded-t" style={{ height: "400px"}}/>
+                    <img src={post.frontmatter.image} alt={post.frontmatter.title} className="w-full object-cover object-left-top rounded-t" style={{ height: "400px", width: "100%"}}/>
                 </header>
                 <div className="break-words px-4 lg:px-16 py-12 lg:py-20 prose lg:prose-xl max-w-screen leading-normal">
                     <div dangerouslySetInnerHTML={{ __html: post.html }} />

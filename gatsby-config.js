@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Markdown Blog`,
-    description: `Markdown blog with Gatsby`,
+    title: `Nikki Peel - Blog`,
+    description: `Technical blog created with Gatsby and Markdown`,
     author: `Nikki Peel`,
     siteUrl: `https://nikkipeel.netlify.app`,
   },
@@ -35,7 +35,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `public/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `public/images/logo.svg`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-feed`,

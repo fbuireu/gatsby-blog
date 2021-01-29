@@ -14,9 +14,9 @@ return  (
         <main className="container flex flex-col bg-brown text-white">
             <div className="p-4 md:p-12 md:w-3/4 mx-auto relative">
                 <section className="bg-brown text-white text-center md:text-left rounded-lg md:flex p-12 md:p-20">
-                    <img src="https://i.imgur.com/mz9QfKo.jpg" className="h-60 w-48 md:w-64 md:h-80 mx-auto md:mr-12" alt="portrait" id="home-img"/>
+                    <img src="/images/selfie.png" className="w-80 h-80 mx-auto md:mr-12" alt="portrait" id="home-img"/>
                     <div className="text-base flex flex-col justify-center">
-                        <h1 className="mono text-xl my-8">Hi there, I'm Nikki!</h1>
+                        <h1 className="mono text-xl my-8 md:mt-0">Hi there, I'm Nikki!</h1>
                         <p className="mt-4 mb-8 text-white">I'm a Front End Developer working from home in the United States. I love making websites and thought I'd create this blog to share some of my projects and favorite web development tools with you. Feel feel to browse my recent posts and projects or find something new in the resources section 😎</p>
                         <a href="/rss.xml"><button className="w-48 h-12 font-semibold bg-yellow hover:bg-brown text-brown hover:text-yellow border-4 border-brown hover:border-yellow cursor-pointer rounded"> Subscribe with RSS</button></a>
                     </div>
@@ -24,6 +24,7 @@ return  (
             </div>
 
             <div className="flex flex-col justify-center mx-auto mt-24 mb-24"> 
+                <h2 className="text-3xl mono border-b-2 border-yellow w-1/2 mx-8 leading-loose">Recent Posts</h2>
                
                       <>
                       {data.allMarkdownRemark.edges.map(post => (

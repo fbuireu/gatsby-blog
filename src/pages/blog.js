@@ -10,8 +10,8 @@ const BlogPage = ({ data }) => (
     <SEO title="Blog" />
     <main className="bg-brown text-white h-auto p-12">
             <section className="container mx-auto">
-                <h1 className="text-4xl mono">Latest Blog Posts</h1>
-                <h2 className="text-lg mb-12">Welcome to my page of blog posts</h2>
+                <h1 className="text-4xl mono pl-4">Latest Blog Posts</h1>
+                <h2 className="text-lg mb-12 pl-4">Welcome to my page of blog posts</h2>
 
 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center mx-auto md:gap-8 mb-24"> 

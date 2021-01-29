@@ -1,7 +1,7 @@
 {
   "name": "gatsby-blog",
   "private": true,
-  "description": "Markdown blog built with gatsby-starter-default",
+  "description": "Markdown blog built with Gatsby and Tailwind",
   "version": "0.1.0",
   "author": "Nikki Peel <nikkipeel.dev@gmail.com>",
   "dependencies": {
@@ -39,7 +39,6 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",

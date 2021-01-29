@@ -8,7 +8,7 @@ function Menu() {
     return (
         <header className="bg-brown px-12">
             <div className="container md:flex md:justify-between">
-            <nav className="md:flex justify-center items-center" id="top">
+            <nav className="md:flex justify-center items-center">
             <Link to="/" exact activeClassName="border-b-4 border-pink border-opacity-100 text-pink" className="inline-flex items-center py-3 px-3 mr-6  text-white hover:text-pink border-b-4 border-opacity-0 hover:border-b-4 border-pink  text-base font-bold mono tracking-widest">
             <FontAwesomeIcon icon={faHome} className="md:mr-4"></FontAwesomeIcon>  <p className="hidden md:block ">Home</p>
         </Link>

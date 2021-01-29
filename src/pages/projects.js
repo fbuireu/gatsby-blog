@@ -7,13 +7,14 @@ const ProjectsPage = () => (
             <SEO title="Projects" />
         <main className="bg-brown text-white min-h-screen p-8 md:p-12">
             <section className="container mx-auto">
-                <h1 className="text-3xl flex justify-center mono">My Projects</h1>
-                <h2 className="text-lg text-white flex justify-center mb-12">Welcome to my projects page</h2>
+                    <h1 className="text-4xl mono pl-4">Recent Projects</h1>
+                    <h2 className="text-lg mb-12 pl-4">Welcome to my projects page</h2>
+
                 <section className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <article className="relative bg-white text-brown rounded-lg shadow-xl py-8 px-8">
                             <img src=""  alt="" className="relative items-center md:float-left w-full md:w-64 rounded mr-4" />
 
-                            <div className="flex flex-row items-center justify-between h-12">
+                            <div className="flex flex-row items-center justify-between h-12  mt-4">
                                 
                                     <a className="text-left text-3xl font-bold hover:text-pink" href="#" alt="" target="_blank" rel="noopener noreferrer">Cannabiz </a>
                                
@@ -36,7 +37,7 @@ const ProjectsPage = () => (
                         <article className="relative bg-white text-brown rounded-lg shadow-xl py-8 px-8">
                             <img src=""  alt="" className="relative items-center md:float-left w-full md:w-64 rounded mr-4" />
 
-                            <div className="flex flex-row items-center justify-between h-12">
+                            <div className="flex flex-row items-center justify-between h-12 mt-4">
                                 
                                     <a className="text-left text-3xl font-bold hover:text-pink" href="#" alt="" target="_blank" rel="noopener noreferrer">Sanity Blog w/React</a>
                                
@@ -59,7 +60,7 @@ const ProjectsPage = () => (
                         <article className="relative bg-white text-brown rounded-lg shadow-xl py-8 px-8">
                             <img src=""  alt="" className="relative items-center md:float-left w-full md:w-64 rounded mr-4" />
 
-                            <div className="flex flex-row items-center justify-between h-12">
+                            <div className="flex flex-row items-center justify-between h-12 mt-4">
                                 
                                     <a className="text-left text-3xl font-bold hover:text-pink" href="#" alt="" target="_blank" rel="noopener noreferrer">Nomadic Nobodies </a>
                                
@@ -82,7 +83,7 @@ const ProjectsPage = () => (
                         <article className="relative bg-white text-brown rounded-lg shadow-xl py-8 px-8">
                             <img src=""  alt="" className="relative items-center md:float-left w-full md:w-64 rounded mr-4" />
 
-                            <div className="flex flex-row items-center justify-between h-12">
+                            <div className="flex flex-row items-center justify-between h-12 mt-4">
                                 
                                     <a className="text-left text-3xl font-bold hover:text-pink" href="#" alt="" target="_blank" rel="noopener noreferrer">Bootstrap Portfolio </a>
                                

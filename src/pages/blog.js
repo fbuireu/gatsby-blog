@@ -18,20 +18,23 @@ const BlogPage = ({ data }) => (
                 {data.allMarkdownRemark.edges.map(post => (
                    <article>
                    <Link to={post.node.frontmatter.path}>
-                   <span className="block h-64 relative leading-snug" key={ post.node.id }>
-                       <img src={post.node.frontmatter.image} alt="" className="w-full h-full object-cover object-top absolute"/> 
-                       <span className="block relative h-full flex justify-start md:justify-end items-end pr-4 md:pb-4">
-                           <h3 className="bg-gray-800 bg-opacity-75 text-white text-xl font-semibold px-3 py-4 rounded text-left">{post.node.frontmatter.title}</h3>
+    
+                   <div className="block lg:h-64 relative leading-snug" key={ post.node.id }>
+                   <img src={post.node.frontmatter.image} alt="" className="lg:block w-full items-center lg:h-full lg:object-cover lg:object-top relative lg:absolute"/> 
+                       <span className="block relative lg:h-full lg:flex lg:items-end ">
+                           <h3 className="lg:bg-gray-800 lg:bg-opacity-75 text-white text-xl font-semibold lg:px-3 lg:py-4 rounded text-left">{post.node.frontmatter.title}</h3>
                        </span>
-                       <div className="mt-4 mb-4">
+                      <div className="mt-4 mb-8"> 
                            <p className="text-base mb-4">{post.node.frontmatter.description}</p>
                            <span id={post.node.frontmatter.category} className="text-black font-semibold text-sm py-2 px-4 mr-2 rounded">{post.node.frontmatter.category}</span>
                            <small className="text-base ml-2">&#128197; {post.node.frontmatter.date}</small>
-                       </div>
-                   </span>
+                       </div> 
+                   </div>
                    </Link>
                </article>
-                    ))}
+     ))}
+
+               
                 </div>
             </section>
         </main>

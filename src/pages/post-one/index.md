@@ -5,8 +5,8 @@ title: "Create a blog with React and Sanity"
 description: "Create a technical blog built with React, TailwindCSS, and Sanity then deploy it using Github and Netlify"
 category: "React"
 author: "Nikki Peel"
-authorImage: /images/selfie3.jpg
-image: /images/sanity-blog-collage.jpg
+authorImage: ../images/selfie3.jpg
+image: ../images/sanity-blog-collage.jpg
 ---
 
 I recently decided to create a blog of my own where I could add technical posts, new projects, and list some of my favorite resources. After my initial sketches and creating wireframes in XD, I needed to decide on which language to build this blog with, what CMS (if any) I would use and where it would be deployed. I found this great tutorial on YouTube: [Build a Portfolio Website with React and Sanity.io](https://youtu.be/NO7_jgzVgbc)
@@ -59,12 +59,12 @@ Once it's done building you can visit your new Sanity studio at localhost:3333 �
 This is what my project structure looked like once the Sanity configuration files and schemas were created (schema.js joins together the various schemas we've written (Post, BlockContent, Project, Author, Category):
 
 *portfolio → sanity-studio → schemas → schema.js*
-![blog schema](../../images/blog-schema.png)
+![blog schema](../images/blog-schema.png)
 
 This is what my Post schema looks like:
 
 *portfolio → sanity-studio → schemas → post.js*
-![post schema](../../images/post-schema.png)
+![post schema](../images/post-schema.png)
 
 *Update: I've since taken out the 'BlockContent' schema and replaced it with 'content'. I'll be using some code blocks in my blog and decided to use Sanity's Portable Text Editor instead (see docs).*
 
@@ -95,9 +95,9 @@ And then add the serializers within the content's container div:
 
 This next step involves adding actual content to our blog through the Sanity studio we just set up. As you can see, all of your content types are listed on the left-hand side of your studio. In order to add a new post to your blog, click the pencil icon in the top-left corner next to your project name and select your 'document type':
 
-![create new document in Sanity](../../images/add-post-to-sanity.png)
+![create new document in Sanity](../images/add-post-to-sanity.png)
 
-![select 'post' document type](../../images/add-post-to-sanity(2).png)
+![select 'post' document type](../images/add-post-to-sanity(2).png)
 
 
 ### **Connecting to our React app**
@@ -140,13 +140,13 @@ To use React-Router in your project, make sure to install the required dependenc
 
 In your project's `App.js`, import all of the files you've just created in your project's `components/` folder. You'll need to also install BrowserRouter, Route, and Switch from 'react-router-dom':
 
-![import the necessary files in app.js](../../images/blog-appjs.png)
+![import the necessary files in app.js](../images/blog-appjs.png)
 
 ### **Displaying posts using GROQ**
 
 For each of your pages that will be using data from Sanity, be sure to import your Sanity client - `client.js` - along with 'useState' and 'useEffect' from 'react' (we'll be setting our state then fetching posts with useEffect and sanityClient). You should also import 'Link' from 'react-router-dom' for navigation to single posts. Here is what my final `Post.js` file looks like:
 
-![post.js file](../../images/postjs.png)
+![post.js file](../images/postjs.png)
 
 With Sanity, you can use either GROQ or GraphQL for your querying language. Since this was my first project with Sanity and the tutorial used GROQ, I decided to go with that for starting out. Within 'useEffect', we're fetching the title, slug, description, featured image, and category for each post:
 
@@ -206,7 +206,7 @@ For single posts, our GROQ query looks like this:
 
 *src → components → SinglePost.js*
 
-![single post file](../../images/postjs(2).png)
+![single post file](../images/postjs(2).png)
 
 ```
 useEffect(() => {
@@ -453,7 +453,7 @@ export default function SinglePost() {
     )};
 ```
 
-![Single Post page in the browser](../../images/singlepost.png)
+![Single Post page in the browser](../images/singlepost.png)
 
 *Post.js* →
 
@@ -519,17 +519,17 @@ export default function SinglePost() {
     }
 ```
 
-![Blog page in the browser](../../images/blog.png)
+![Blog page in the browser](../images/blog.png)
 
 ### **Deployment with Netlify**
 
 First, make sure you have an account with Netlify. Next, make sure your files are pushed to a repository on Github. In order to create a new site on Netlify, click on the button that says new site from git on your user dashboard.
 
-![Create new site in Netlify](../../images/netlifydash.png)
+![Create new site in Netlify](../images/netlifydash.png)
 
 You'll be prompted to deploy using Github, Gitlab, or Bitbucket. For this project, I connected it to Github (double check your repository's settings to make sure Netlify is integrated):
 
-![Choose Git provider for Netlify site](../../images/netlify-choose-provider.png)
+![Choose Git provider for Netlify site](../images/netlify-choose-provider.png)
 
 That's it! The blog is officially deployed. 🎉👍
 

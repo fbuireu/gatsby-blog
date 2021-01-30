@@ -5,8 +5,8 @@ title: "Customizing the Scrollbar with CSS"
 description: "Learn how to apply custom styling to the scrollbar on your project with pure CSS"
 category: "CSS"
 author: "Nikki Peel"
-authorImage: /images/selfie3.jpg
-image: /images/scrollbar.png
+authorImage: ../images/selfie3.jpg
+image: ../images/scrollbar.png
 ---
 
 Have you ever noticed the intricacies of the websites you visit? You can style just about every pixel of it, including the scrollbar. I was curious about how to go about this and found that it could be accomplished with just a few lines of CSS. 

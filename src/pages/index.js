@@ -12,11 +12,11 @@ return  (
   <Layout>
     <SEO title="Home" />
         <main className="container flex flex-col bg-brown text-white">
-            <div className="p-4 md:p-12 md:w-3/4 mx-auto relative">
-                <section className="bg-brown text-white text-center md:text-left rounded-lg md:flex p-12 md:p-20">
-                    <img src="/images/selfie.png" className="w-80 h-80 mx-auto md:mr-12" alt="portrait" id="home-img"/>
+            <div className="p-4 lg:p-12 lg:w-3/4 mx-auto relative">
+                <section className="bg-brown text-white text-center lg:text-left rounded-lg lg:flex p-12 lg:p-20">
+                    <img src="/images/selfie.png" className="w-64 h-64 mx-auto lg:mr-12" alt="portrait" id="home-img"/>
                     <div className="text-base flex flex-col justify-center">
-                        <h1 className="mono text-xl my-8 md:mt-0">Hi there, I'm Nikki!</h1>
+                        <h1 className="mono text-xl my-8 lg:mt-0">Hi there, I'm Nikki!</h1>
                         <p className="mt-4 mb-8 text-white">I'm a Front End Developer working from home in the United States. I love making websites and thought I'd create this blog to share some of my projects and favorite web development tools with you. Feel feel to browse my recent posts and projects or find something new in the resources section 😎</p>
                         <a href="/rss.xml"><button className="w-48 h-12 font-semibold bg-yellow hover:bg-brown text-brown hover:text-yellow border-4 border-brown hover:border-yellow cursor-pointer rounded"> Subscribe with RSS</button></a>
                     </div>

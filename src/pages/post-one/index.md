@@ -5,8 +5,8 @@ title: "Create a blog with React and Sanity"
 description: "Create a technical blog built with React, TailwindCSS, and Sanity then deploy it using Github and Netlify"
 category: "React"
 author: "Nikki Peel"
-authorImage: ../../images/selfie3.jpg
-image: ../../images/sanity-blog-collage.jpg
+authorImage: /images/selfie3.jpg
+image: /images/sanity-blog-collage.jpg
 ---
 
 I recently decided to create a blog of my own where I could add technical posts, new projects, and list some of my favorite resources. After my initial sketches and creating wireframes in XD, I needed to decide on which language to build this blog with, what CMS (if any) I would use and where it would be deployed. I found this great tutorial on YouTube: [Build a Portfolio Website with React and Sanity.io](https://youtu.be/NO7_jgzVgbc)

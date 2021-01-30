@@ -1,14 +1,15 @@
 import React from 'react';
-import Layout from '../components/layout';
+import Layout from '../components/layout'
+import selfie from '../images/selfie.png'
 
 const AboutPage = ()  => (
         <Layout>
         <main className="container relative">   
-            <div className="p-4 md:p-12 md:w-3/4 mx-auto relative">
-                <section className="bg-brown text-white text-center md:text-left rounded-lg lg:flex p-12 md:p-20">
-                    <img src="/images/selfie.png" className="h-60 w-60 lg:w-80 lg:h-80 mx-auto md:mr-12" alt="portrait" id="about-img"/>
+            <div className="p-4 lg:p-12 lg:w-3/4 mx-auto relative">
+                <section className="bg-brown text-white text-center lg:text-left rounded-lg lg:flex p-12 lg:p-20">
+                    <img src={selfie} className="h-60 w-60 mx-auto lg:mr-12" alt="portrait" id="about-img"/>
                     <div className="text-lg flex flex-col justify-center">
-                        <h1 className="mono text-xl my-8 md:mt-0">Hi! My name is {" "}
+                        <h1 className="mono text-xl my-8 lg:mt-0">Hi! My name is {" "}
                             <span>Nikki</span>
                         </h1>
                         <div className="prose lg:prose-xl text-base">

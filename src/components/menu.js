@@ -7,10 +7,10 @@ import { faCodepen, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-ic
 function Menu() {
     return (
         <header className="bg-brown px-12">
-            <div className="container md:flex md:justify-between">
-            <nav className="md:flex justify-center items-center">
+            <div className="container lg:flex lg:justify-between">
+            <nav className="lg:flex justify-center items-center">
             <Link to="/" exact activeClassName="border-b-4 border-pink border-opacity-100 text-pink" className="inline-flex items-center py-3 px-3 mr-6  text-white hover:text-pink border-b-4 border-opacity-0 hover:border-b-4 border-pink  text-base font-bold mono tracking-widest">
-            <FontAwesomeIcon icon={faHome} className="md:mr-4"></FontAwesomeIcon>  <p className="hidden md:block ">Home</p>
+            <FontAwesomeIcon icon={faHome} className="md:mr-4"></FontAwesomeIcon>  <p className="hidden md:block">Home</p>
         </Link>
         <Link to="/blog/" activeClassName="border-b-4 border-pink border-opacity-100 text-pink" className="inline-flex items-center py-3 px-3 mr-6 text-white hover:text-pink border-b-4 border-opacity-0 hover:border-b-4 border-pink text-base font-bold mono tracking:widest">
             <FontAwesomeIcon icon={faQuoteRight} className="md:mr-4"></FontAwesomeIcon> <p className="hidden md:block ">Blog</p>
@@ -25,7 +25,7 @@ function Menu() {
             <FontAwesomeIcon icon={faTools} className="md:mr-4"></FontAwesomeIcon> <p className="hidden md:block ">Tools</p>
         </Link>
     </nav>
-    <div className="hidden md:inline-flex items-center py-3 px-3">
+    <div className="hidden lg:inline-flex items-center py-3 px-3">
         <a href="mailto:nikkipeel.dev@gmail.com" className="mr-8 text-2xl text-white hover:text-pink cursor-pointer" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faEnvelope} /></a>
         <a href="https://www.github.com/nikkipeel" className="mr-8 text-2xl text-white hover:text-pink cursor-pointer" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faGithub} /></a>
         <a href="https://www.codepen.io/nikki-peel" className="mr-8 text-2xl text-white hover:text-pink cursor-pointer" target="_blank" rel="noreferrer"> <FontAwesomeIcon icon={faCodepen} /></a>

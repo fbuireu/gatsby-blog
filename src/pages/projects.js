@@ -1,6 +1,11 @@
-import React from 'react';
-import Layout from '../components/layout';
+import React from 'react'
+import Layout from '../components/layout'
 import SEO from "../components/seo"
+import cannabiz from '../images/slider.png'
+import sanityBlog from '../images/blog.png'
+import bootstrap from '../images/portfolio-works.png'
+import twBlog from '../images/tailwindblog.png'
+import nnBlog from '../images/nnblog2.png'
 
 const ProjectsPage = () => (
         <Layout>
@@ -12,7 +17,7 @@ const ProjectsPage = () => (
 
                 <section className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         <article className="relative bg-white text-brown rounded-lg shadow-xl py-8 px-8">
-                            <img src="/images/slider.png"  alt="" className="relative items-center lg:float-left w-full lg:w-48 lg:h-64 xl:w-64 rounded mr-4" />
+                            <img src={cannabiz}  alt="" className="relative items-center lg:float-left w-full lg:w-48 lg:h-56 xl:w-64 rounded mr-4" />
 
                             <div className="flex flex-row items-center justify-between h-12 mt-4 lg:mt-0 lg:mb-4">
                                 
@@ -35,7 +40,7 @@ const ProjectsPage = () => (
                         </article>
 
                         <article className="relative bg-white text-brown rounded-lg shadow-xl py-8 px-8">
-                            <img src="/images/blog.png"  alt="" className="relative items-center lg:float-left w-full lg:w-48 lg:h-64 xl:w-64 rounded mr-4" />
+                            <img src={sanityBlog}  alt="" className="relative items-center lg:float-left w-full lg:w-48 lg:h-56 xl:w-64 rounded mr-4" />
 
                             <div className="flex flex-row items-center justify-between h-12 my-4 lg:mt-0">
                                 
@@ -58,7 +63,7 @@ const ProjectsPage = () => (
                         </article>
 
                         <article className="relative bg-white text-brown rounded-lg shadow-xl py-8 px-8">
-                            <img src="/images/nnblog2.png"  alt="" className="relative items-center lg:float-left w-full lg:w-48 lg:h-64 xl:w-64 rounded mr-4" />
+                            <img src={nnBlog}  alt="" className="relative items-center lg:float-left w-full lg:w-48 lg:h-56 xl:w-64 rounded mr-4" />
 
                             <div className="flex flex-row items-center justify-between h-12 my-4 lg:mt-0">
                                 
@@ -81,7 +86,7 @@ const ProjectsPage = () => (
                         </article>
 
                         <article className="relative bg-white text-brown rounded-lg shadow-xl py-8 px-8">
-                            <img src="/images/portfolio-works.png"  alt="" className="relative items-center lg:float-left w-full lg:w-48 lg:h-64 xl:w-64 rounded mr-4" />
+                            <img src={bootstrap} alt="" className="relative items-center lg:float-left w-full lg:w-48 lg:h-56 xl:w-64 rounded mr-4" />
 
                             <div className="flex flex-row items-center justify-between h-12 my-4 lg:mt-0">
                                 
@@ -104,7 +109,7 @@ const ProjectsPage = () => (
                         </article>
 
                         <article className="relative bg-white text-brown rounded-lg shadow-xl py-8 px-8">
-                            <img src="/images/tailwindblog.png"  alt="" className="relative items-center lg:float-left w-full lg:w-48 lg:h-64 xl:w-64 rounded mr-4" />
+                            <img src={twBlog}  alt="" className="relative items-center lg:float-left w-full lg:w-48 lg:h-56 xl:w-64 rounded mr-4" />
 
                             <div className="flex flex-row items-center justify-between h-12 my-4 lg:mt-0">
                                 

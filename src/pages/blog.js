@@ -1,6 +1,5 @@
 import React from "react"
 import { graphql } from 'gatsby'
-
 import Layout from "../components/layout"
 import Link from 'gatsby-link';
 import SEO from "../components/seo"
@@ -53,11 +52,11 @@ export const pageQuery = graphql`
                         description
                         date
                         category
-                        image
-                    }
+                        image 
                     }
                 }
             }
+        }
     }
 `;
 

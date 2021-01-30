@@ -5,7 +5,7 @@ title: "Create a blog with React and Sanity"
 description: "Create a technical blog built with React, TailwindCSS, and Sanity then deploy it using Github and Netlify"
 category: "React"
 author: "Nikki Peel"
-authorImage: ../images/selfie3.jpg
+authorImage: ../images/selfie.png
 image: ../images/sanity-blog-collage.jpg
 ---
 
